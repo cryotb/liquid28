@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Features\Triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C_BasePredictionSystem.cpp">
+      <Filter>Source\Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>Source\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawManager.cpp">
+      <Filter>Source\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenu.cpp">
+      <Filter>Source\Drawing\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetVars.cpp">
+      <Filter>Source\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="CSignature.cpp">
+      <Filter>Source\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Panels.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="VMTHooks.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C_ConVar.cpp">
+      <Filter>Source\SDK\SDK\[CVAR]</Filter>
+    </ClCompile>
+    <ClCompile Include="CAntiAims.cpp">
+      <Filter>Features\AntiAims</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Source\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CheatEvents.cpp">
+      <Filter>CCheatEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigSystem.cpp">
+      <Filter>Source\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="RS.cpp">
+      <Filter>Features\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="G.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>GLOW</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui.cpp">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="DX.cpp">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerbot.h">
+      <Filter>Features\Triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C_BasePredictionSystem.h">
+      <Filter>Source\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawManager.h">
+      <Filter>Headers\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVars.h">
+      <Filter>Source\Drawing\GUI\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetVars.h">
+      <Filter>Headers\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Headers\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Headers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Panels.h">
+      <Filter>Headers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Pred.h">
+      <Filter>Headers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Headers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Headers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHooks.h">
+      <Filter>Headers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponList.h">
+      <Filter>Headers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>Source\SDK\SDK\[RAY]</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>Source\SDK\SDK\[RAY]</Filter>
+    </ClInclude>
+    <ClInclude Include="getvfunc.h">
+      <Filter>Source\SDK\SDK\[VIRTUAL]</Filter>
+    </ClInclude>
+    <ClInclude Include="CSignature.h">
+      <Filter>Source\SDK\SDK\[VIRTUAL]</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source\SDK\SDK\[SHARED]</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Source\SDK\SDK\[SHARED]</Filter>
+    </ClInclude>
+    <ClInclude Include="C_ConVar.h">
+      <Filter>Source\SDK\SDK\[CVAR]</Filter>
+    </ClInclude>
+    <ClInclude Include="CCast.h">
+      <Filter>Source\SDK\SDK\[SHARED]</Filter>
+    </ClInclude>
+    <ClInclude Include="CAntiAims.h">
+      <Filter>Features\AntiAims</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Source\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenu.h">
+      <Filter>Source\Drawing\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigSystem.h">
+      <Filter>Source\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="RS.h">
+      <Filter>Features\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="tf2structs.hpp">
+      <Filter>Features\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="G.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="glowmanager.h">
+      <Filter>GLOW</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>GLOW</Filter>
+    </ClInclude>
+    <ClInclude Include="utlbmem.h" />
+    <ClInclude Include="utlvec.h">
+      <Filter>GLOW</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rectpack.h">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DX.h">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSDK.h">
+      <Filter>Headers\Misc\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.hpp">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CheatEvents.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{79b023fd-cbc8-41db-bfda-b06ff3b945f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7561bd3e-f399-43c0-80fd-202de503f606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Prediction">
+      <UniqueIdentifier>{1780f1fe-4a0c-47fe-950b-472068a3735d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Drawing">
+      <UniqueIdentifier>{46590252-2a62-42a2-8e80-4c3cb2a410ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Net">
+      <UniqueIdentifier>{b3c60b94-839d-4501-a58c-2e10c981a692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Client">
+      <UniqueIdentifier>{fd4a733f-9ce6-40ad-91e2-c81b22757f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Misc">
+      <UniqueIdentifier>{215a46da-31b5-4eda-9a63-fbce1b9cc58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SDK">
+      <UniqueIdentifier>{97ecee68-d1b4-4953-8ade-9f46e2e0e821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Drawing">
+      <UniqueIdentifier>{d7158d7b-e361-4e49-9692-bb659b4141d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Client">
+      <UniqueIdentifier>{923286d2-3f13-4b8d-ac76-0406865c0c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Net">
+      <UniqueIdentifier>{2d6c0fc2-4790-4d31-86a7-a79ad5ba4f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Misc">
+      <UniqueIdentifier>{7b3f864a-c96c-436c-9a41-3a9d17ab27a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{bd4db70f-c9e9-4991-848f-748551954a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot">
+      <UniqueIdentifier>{4f190136-d775-450b-9049-6a6fdd0ab7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Triggerbot">
+      <UniqueIdentifier>{d045afc8-c948-46e8-b3fa-9c7469fb9345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ESP">
+      <UniqueIdentifier>{3f8592fd-56b1-487a-bf76-227058a23a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Misc">
+      <UniqueIdentifier>{338f8ff1-8354-487f-9830-cc45a33039d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\AntiAims">
+      <UniqueIdentifier>{83edbe41-5f2e-4086-a8a6-b9910447b43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Context">
+      <UniqueIdentifier>{41eb1ff8-c2c6-4bdd-88b9-027ffbc4bd3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SDK\SDK">
+      <UniqueIdentifier>{26f41f51-e326-402a-b241-2ebc48b9a1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SDK\SDK\[CVAR]">
+      <UniqueIdentifier>{6e966930-e07c-4d28-9b74-c398ea3d2b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SDK\SDK\[RAY]">
+      <UniqueIdentifier>{388dec93-8a89-4a4d-b096-89a39d06bbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SDK\SDK\[VIRTUAL]">
+      <UniqueIdentifier>{41db89f0-7465-4308-836c-67020e68c414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCheatEvents">
+      <UniqueIdentifier>{41c830e8-8f5c-4d41-b6e2-299cdd55831a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Drawing\GUI">
+      <UniqueIdentifier>{e12306ec-9675-4a15-a535-4c9b98e8e9ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config">
+      <UniqueIdentifier>{57450f18-ee29-4bd1-ae98-76b6a9214b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Resolver">
+      <UniqueIdentifier>{fa9b16dc-43ca-49d3-8105-41bc2567ed86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SDK\SDK\[SHARED]">
+      <UniqueIdentifier>{a6f57870-128c-46af-abbf-12369961f862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{dc806e5d-a06c-4748-afc9-b25827925ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLOW">
+      <UniqueIdentifier>{e1c135f0-5fc6-4343-a778-8e2d1d0e0a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Misc\Imgui">
+      <UniqueIdentifier>{7247e5c3-c11c-407f-809c-d9cecd7099db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Drawing\GUI\Globals">
+      <UniqueIdentifier>{243b0629-89d0-4b32-8e00-c56ab8b34ceb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

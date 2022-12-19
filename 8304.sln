@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53348295-68AD-4FAE-8203-4B68A6C6A6E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53348295-68AD-4FAE-8203-4B68A6C6A6E6}.Debug|Win32.Build.0 = Debug|Win32
+		{53348295-68AD-4FAE-8203-4B68A6C6A6E6}.Release|Win32.ActiveCfg = Release|Win32
+nNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44A4B32A-9447-4566-B098-ECE73DEF0109}
+	EndGlobalSection
+EndGlobal
